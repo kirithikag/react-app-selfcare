@@ -1,0 +1,44 @@
+.progress-container {
+    background-image: url('https://img.freepik.com/free-photo/envelope-with-paper-flower-branch_23-2148069031.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .progress-header {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .progress-summary {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar-inner {
+    background-color: #007BFF;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+  }
+  

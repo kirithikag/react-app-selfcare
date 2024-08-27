@@ -1,0 +1,76 @@
+.habit-tracker-container {
+    background-image: url('https://i.pinimg.com/1200x/ba/b2/68/bab268c60e5b486b031b301a418d7202.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .habit-tracker-header {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .habit-list {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .habit-item {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .habit-item input {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .habit-item button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .complete-button {
+    background-color: #28a745;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .new-habit-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .new-habit-section input,
+  .new-habit-section select,
+  .new-habit-section button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
